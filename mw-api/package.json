@@ -1,0 +1,17 @@
+{
+    "name": "mw",
+    "version": "1.0.0",
+    "main": "index.mjs",
+    "dependencies": {
+        "@movie-web/providers": "file:mwp",
+        "@whatwg-node/server": "^0.9.29",
+        "https-proxy-agent": "^7.0.4",
+        "itty-router": "^5.0.9",
+        "node-fetch": "^3.3.2",
+        "node-html-parser": "^6.1.13",
+        "user-agents": "^1.1.183"
+    },
+    "engines": {
+        "node": "^20"
+    }
+}

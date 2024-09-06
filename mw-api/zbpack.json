@@ -1,0 +1,5 @@
+{
+    "serverless": true,
+    "cache_dependencies": false,
+    "build_command": "perl -i -0777 -pe 's/[^\\n]*process.argv.length.*//s' index.mjs; echo 'export default createServerAdapter(router.fetch)' >> index.mjs; mkdir -p .zeabur/output/functions/index.func; mv * .zeabur/output/functions/index.func/; echo '{\"version\": 3, \"routes\": [{ \"src\": \"/(.*)\", \"dest\": \"/\" }]}' >>.zeabur/output/config.json"
+}

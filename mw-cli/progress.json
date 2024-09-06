@@ -1,0 +1,23 @@
+{
+  "1396": {
+    "id": 1396,
+    "type": "tv",
+    "title": "Breaking Bad",
+    "releaseYear": "2008",
+    "season": {
+      "number": 1,
+      "episode": {
+        "number": 1,
+        "name": null
+      }
+    },
+    "time": "2024-09-06T12:01:55.338Z"
+  },
+  "12153": {
+    "id": 12153,
+    "type": "movie",
+    "title": "White Chicks",
+    "releaseYear": "2004",
+    "time": "2024-09-06T12:03:42.247Z"
+  }
+}

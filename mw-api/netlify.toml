@@ -1,0 +1,16 @@
+[build]
+    command = """
+        echo "export default router.fetch" >> index.mjs
+        mkdir -p netlify
+        echo "export { default } from '../index.mjs'" > netlify/index.mjs
+        """
+
+[functions]
+    directory = "netlify"
+    node_bundler = "esbuild"
+
+[[redirects]]
+    from = "/*"
+    to = "/.netlify/functions/index/:splat"
+    force = true
+    status = 200
